@@ -1,0 +1,44 @@
+
+body{height:100%;
+	 margin:0;
+	 padding:0;
+	 background-color:#83AE9B;
+	 color:white;
+	 font-size:30px;
+				 }
+		
+.menu{position:fixed;
+	 top:0;
+	 right:0;
+	 left:0;
+	 text-align:center;
+	 height:80px;
+	 background-color:#F69A9A;
+	 
+	}	 
+				 
+.nav{list-style-type:none;
+	display:inline-block;
+	margin:0;
+	padding:0;
+	overflow:auto}
+				
+.menu_item{float:left;
+		margin-left:30px
+				}
+		
+.menu_img{display: block;
+	padding:10px;
+	text-decoration: none;
+	height:60px;
+	width:60px;}
+
+.content{margin-top:80px;
+		 
+		 }
+#poster{display:block;
+		margin:auto;
+		}
+
+		
+				

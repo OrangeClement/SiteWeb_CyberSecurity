@@ -1,0 +1,74 @@
+<html>
+
+	<head>
+	
+		<title>Poster</title>
+		<link href="css/poster_style.css" rel="stylesheet" type="text/css" />
+		<meta http-equiv="Content-Type" Content="text/html;charset=UTF-8">
+		
+	</head>
+	
+	<body>
+		<div class="menu">
+			<ul class="nav">
+				<li class="menu_item">
+					<input class="menu_img" name="img1" type="image" src="images/elargir.png" alt="enlarge" title="Enlarge"
+						onclick="elargir()">
+				</li>
+				
+				<li class="menu_item">
+					<input class="menu_img" name="img2" type="image" src="images/reduire.png" alt="shrink" title="Shrink"
+						onclick="reduire()">
+				</li>
+				
+				<li class="menu_item">
+					<a href="images/cybersecurity.jpg" download="cybersecurity.jpg">
+						<img class="menu_img" src="images/save.png" alt="save_icon" title="Save"/>
+					</a>
+				</li>
+				
+			</ul>
+		</div>
+	
+		<div class="content">
+	
+			<img name="poster" id="poster" src="images/cybersecurity.jpg" alt="Cybersecurity" title="Cybersecurity"/>
+			
+		</div>
+		<p>
+		<script language="javascript">
+			function elargir()
+			{ 
+				var height=poster.height;
+				var width=poster.width;
+				
+				if ((height<=2000)&&(width<=1500))
+					{
+					poster.height=poster.height*1.1;
+					poster.width=poster.width*1.1;
+					}
+				else
+					{alert("This is the largest picture !");}
+			}
+			function reduire()
+			{ 
+				var height=poster.height;
+				var width=poster.width;
+				
+				if ((height>=400)&&(width>=300))
+					{
+					poster.height=poster.height*0.9;
+					poster.width=poster.width*0.9;
+					}
+				else
+					{alert("This is the smallest picture !");}
+			}
+		</script>
+		</p>
+	
+	
+	</body>
+	
+	
+	
+</html>

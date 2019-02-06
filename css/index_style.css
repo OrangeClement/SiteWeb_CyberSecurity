@@ -1,0 +1,70 @@
+
+body {background-image:url(../images/bg_image.png);
+      background-repeat:no-repeat;
+	  background-size:100% 100%;
+	  background-position:center;
+	  margin:0;
+	  padding:0;
+	  font-size:30px;
+	  border-style:solid;
+	  min-width:600px}
+		
+a:link{text-decoration:none;
+	   color:white}
+a:visited{text-decoration:none;
+	      color:white}
+
+a:hover{color:#333;
+		text-decoration:underline;}
+
+		  
+.title {text-align: center;
+        padding-top: 35px;
+		height: 70%;
+		color:white;
+		min-width:600px}
+		
+.poster{float:left;
+        width:12%;
+		margin-left:30%;
+		height:50px;
+        color:white;
+		text-align:center;
+		border-style:dashed;
+		padding-top:10px;
+		cursor:pointer;
+		transition: all 0.5s linear;
+		-moz-transition: 0.5s linear;	/* Firefox 4 */
+		-webkit-transition: 0.5s linear;	/* Safari 和 Chrome */
+		}
+
+
+.poster:hover {font-size:120%;
+			   padding-top:5px;
+               background-color:aliceblue;
+		       border-color:#333;
+		       color:#333;
+		   
+		   }
+		   
+.report{margin-left:60%;
+		width:12%;
+		height:50px;
+		color:white;
+		text-align:center;
+		border-style:dashed;
+		padding-top:10px;
+		cursor:pointer;
+		transition: all 0.5s linear;
+		-moz-transition: 0.5s linear;	/* Firefox 4 */
+		-webkit-transition: 0.5s linear;	/* Safari 和 Chrome */
+		overflow:visible;
+		}
+
+		
+.report:hover {font-size:120%;
+			   padding-top:5px;
+               background-color:aliceblue;
+			   border-color:#333;
+			   color:#333;
+		       }
